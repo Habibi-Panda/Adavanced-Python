@@ -15,6 +15,7 @@ def increment(num):
 # i need to run increment() funtion any other file 
 # there no need to run a or n variable
 if __name__ == '__main__':
+    # print(__name__)
     n = input('Enter your value : ')
     a = increment(n)
     print(a)
