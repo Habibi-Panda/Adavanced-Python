@@ -1,0 +1,10 @@
+# For MacOS/linux user : source myprojectenv/bin/activate
+# For windows powershell users : .\myprojectenv\Scripts\activate.ps1
+# all commands run only in powershell
+1 . pip install virtualenv
+2 . virtualenv myprojectenv
+3 . .\myprojectenv\Scripts\activate.ps1
+
+#freeze command
+pip install freeze
+pip install freeze > requerement.txt #freeze ke sare output(packages) ko file me dal dega
