@@ -3,4 +3,4 @@ pip freeze > Question6.txt
 pip install virtualenv
 virtualenv demoenv
 .\demoenv\Scripts\activate.ps1
-pip freeze -r Question6.txt
+pip install -r Question6.txt
